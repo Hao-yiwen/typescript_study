@@ -1,0 +1,10 @@
+var myFavoriteNumber = 'seven';
+// myFavoriteNumber=7;
+var anyThing = 'hello';
+// anyThing=32;
+console.log(anyThing.myName);
+anyThing.setName('Jerry');
+var something;
+something = 'seven';
+something = 7;
+something.setName('Tom');
