@@ -10,8 +10,35 @@
 //     setTimeout(function() { console.log(i); }, 500 * i);
 // }
 
-function f(x){
-    if(true){
-        let x=100;
+// function f(x){
+//     if(true){
+//         let x=100;
+//     }
+// }
+
+// const obj={
+//     a:1,
+//     b:2
+// }
+
+// const obj1={
+//     ...obj
+// }
+
+// obj1.a=3;
+// console.log(obj===obj1);
+
+// function name(a) {
+//     return function dasd(b) {
+//         return c+a
+//     }
+// }
+
+function a(x){
+    return function b(y){
+        x=x+3;
+        return x*y;
     }
 }
+
+console.log(a(1)(2));

@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import { Router, Route, Link } from 'react-router-dom'
 import createReactClass from 'create-react-class';
 
+class dasda extends React.Component{
+  // static childContextTypes
+  
+}
+
 const App = createReactClass({
   render() {
     return (
