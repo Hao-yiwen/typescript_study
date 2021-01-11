@@ -1,8 +1,19 @@
 import React from'react'
 
-class Comment extends React.Component{
+interface Props{
+    comment:string
+}
+
+interface State{
+    a:number
+}
+
+class Comment extends React.Component<Props>{
     constructor(props){
         super(props);
+        this.state={
+            a:''
+        }
     }
     render(){
         return(
