@@ -1,0 +1,2 @@
+const maths = require('./commonjsB');
+
